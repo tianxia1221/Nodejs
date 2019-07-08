@@ -1,2 +1,7 @@
-initialize a project
-npm init
+init express project
+1. npm init
+2. add express to package.json 
+"dependencies": {
+    "express": "^4.14.0"
+  },
+ 3. npm install
