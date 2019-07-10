@@ -1,0 +1,1 @@
+var gulp=require("gulp");gulp.task("default",function(){console.log("hello, world")}),gulp.task("js",function(){return gulp.src(["node_modules/ansi-colors/*.js"]).pipe(gulp.dest("dist/js"))});

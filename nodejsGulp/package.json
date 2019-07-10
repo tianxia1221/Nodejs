@@ -1,0 +1,20 @@
+{
+  "name": "nodejsgulphelloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-add-src": "^0.2.0",
+    "gulp-gzip": "^1.4.0",
+    "gulp-tar": "^2.1.0",
+    "gulp-zip": "^3.2.0",
+    "gulp-uglify":"3.0.2"
+
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

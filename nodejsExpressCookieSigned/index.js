@@ -5,6 +5,12 @@ var app = express();
 // 初始化中间件，传入的第一个参数为singed secret
 app.use(cookieParser('secretkey'));
 
+app.use(function timeLog(req, res, next) {
+  console.log('Time: ', Date.now());
+  next();
+});
+
+
 app.use(function (req, res, next) {
   console.log(req.cookies.nick); // chyingp
   console.log(req.signedCookies.nick); // chyingp
